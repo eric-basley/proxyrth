@@ -5,8 +5,6 @@ CONFIG="/config"
 
 PARAMS="params.js"
 
-cd "$PROXY"
-
 ln -fs "$CONFIG/$PARAMS" "$PRG/$PARAMS"
 
 echo "Running proxy ..."

@@ -11,7 +11,7 @@ RUN ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 #ADD github.key/ /root/.ssh/
 #RUN chmod 600 /root/.ssh/*
 
-RUN  git clone https://eric_basley@bitbucket.org/redpelicans/proxy.git /proxy
+RUN  git clone https://github.com/eric-basley/proxyrth.git /proxy
 
 RUN \
   cd /proxy && \
